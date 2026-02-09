@@ -10,7 +10,7 @@
 
   <!-- Geocoder -->
   <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.1/mapbox-gl-geocoder.css" />
-  <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.1/mapbox-gl-geocoder.min.js"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.1/mapbox-gl-geocoder.min.js" defer></script>
 
   <style>
     html, body { height: 100%; margin: 0; padding: 0; }
@@ -108,26 +108,6 @@
 
     map.addControl(new mapboxgl.NavigationControl({ showCompass: true }), "top-right");
 
-    // ✅ Geocoder: gjør den "try/catch" så den aldri kan stoppe resten
-    try {
-      if (typeof MapboxGeocoder !== "undefined") {
-        const geocoder = new MapboxGeocoder({
-          accessToken: mapboxgl.accessToken,
-          mapboxgl,
-          marker: false,
-          countries: "no",
-          language: "no",
-          placeholder: "Søk etter sted eller adresse i Norge",
-          zoom: 14
-        });
-        document.getElementById("search").appendChild(geocoder.onAdd(map));
-      } else {
-        console.warn("MapboxGeocoder er undefined – plugin lastet ikke.");
-      }
-    } catch (e) {
-      console.warn("Geocoder feilet, men kartet fortsetter:", e);
-    }
-
     map.on("error", (e) => {
       const err = e && e.error ? e.error : e;
       console.error("Map error:", err);
@@ -135,6 +115,26 @@
     });
 
     map.on("load", async () => {
+      // ✅ Geocoder init her inne (sikkert at Mapbox GL er klar)
+      try {
+        if (typeof MapboxGeocoder !== "undefined") {
+          const geocoder = new MapboxGeocoder({
+            accessToken: mapboxgl.accessToken,
+            mapboxgl,
+            marker: false,
+            countries: "no",
+            language: "no",
+            placeholder: "Søk etter sted eller adresse i Norge",
+            zoom: 14
+          });
+          document.getElementById("search").appendChild(geocoder.onAdd(map));
+        } else {
+          console.warn("MapboxGeocoder er undefined – plugin lastet ikke.");
+        }
+      } catch (e) {
+        console.warn("Geocoder feilet, men kartet fortsetter:", e);
+      }
+
       let geo;
 
       // 1) GeoJSON
