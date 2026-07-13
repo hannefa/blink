@@ -1,0 +1,27 @@
+name: Oppdater kartdata fra Google My Maps
+
+on:
+  schedule:
+    - cron: "0 4 1 * *"   # den 1. hver måned kl. 04:00 UTC
+  workflow_dispatch: {}    # gjør at du kan kjøre den manuelt fra Actions-fanen
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generer geojson fra My Maps
+        run: python3 scripts/update_map.py
+
+      - name: Commit og push hvis endret
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add klesbokser_clean_stripped.geojson
+          git diff --cached --quiet && echo "Ingen endringer" && exit 0
+          git commit -m "Oppdater kartdata fra Google My Maps"
+          git push
