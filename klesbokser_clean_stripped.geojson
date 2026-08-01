@@ -9503,6 +9503,201 @@
           59.292789
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rykkinhallen P-plass"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.47686,
+          59.929417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lommedalshallen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.471783,
+          59.960916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Helsethallen parkeringsplass"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5088093,
+          59.9437652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hornienga FUS barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4664234,
+          59.9150479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stabekk Tennisklubb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6122889,
+          59.9105436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parkering Jar Idrettsbarnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6135566,
+          59.9248361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barktomta parkering"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6294979,
+          59.956294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bjørnegård Combihallen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4958342,
+          59.887017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sollia barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4955955,
+          59.8789697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plantasjen Bærum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4980192,
+          59.911595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lommedalen Idrettslag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4800896,
+          59.9552077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hauger skole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5063339,
+          59.910987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiwi Stabekk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6016437,
+          59.9100679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fururabben Barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6105291,
+          59.9406664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lønnås bo- og rehabiliteringssenter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5986964,
+          59.9444012
+        ]
+      }
     }
   ]
 }
