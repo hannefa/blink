@@ -7570,19 +7570,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "SPAR Svarstad"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9630475,
-          59.4012264
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Kiwi Vestskogen"
       },
       "geometry": {
@@ -9696,6 +9683,123 @@
         "coordinates": [
           10.5986964,
           59.9444012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Østerås T-bane stasjon/Østerås skole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6081736,
+          59.9393568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eiksmarka barnehage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6206333,
+          59.9465329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fornebu Brannstasjon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6218042,
+          59.8992643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RfD Mile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0319214,
+          59.7460817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RfD Lerpeveien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2711959,
+          59.6884933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RfD Lyngås"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2436905,
+          59.8198093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RfD Enger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9167322,
+          59.8867073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RfD Svelvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3970404,
+          59.6091364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RfD NEG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1994686,
+          59.7397617
         ]
       }
     }
