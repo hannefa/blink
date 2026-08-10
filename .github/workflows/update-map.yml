@@ -2,7 +2,7 @@ name: Oppdater kartdata fra Google My Maps
 
 on:
   schedule:
-    - cron: "0 4 1 * *"   # den 1. hver måned kl. 04:00 UTC
+    - cron: "0 * * * *"   # hver time – committer kun hvis kartet faktisk er endret
   workflow_dispatch: {}    # gjør at du kan kjøre den manuelt fra Actions-fanen
 
 permissions:
