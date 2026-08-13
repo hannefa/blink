@@ -9802,6 +9802,19 @@
           59.7397617
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skytterdalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5260781,
+          59.8977566
+        ]
+      }
     }
   ]
 }
