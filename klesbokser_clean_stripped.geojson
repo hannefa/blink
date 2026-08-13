@@ -9815,6 +9815,32 @@
           59.8977566
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kraby miljøstasjon Horrisont"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.872329,
+          60.65732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Horisont Prøven"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.601976,
+          60.708169
+        ]
+      }
     }
   ]
 }
