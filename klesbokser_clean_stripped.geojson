@@ -355,19 +355,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Coop Moltustranda"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.6333148,
-          62.2939923
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Coop Larsnes"
       },
       "geometry": {
@@ -2546,19 +2533,6 @@
         "coordinates": [
           5.2293987,
           60.6843341
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Rema Stokkenes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.0025296,
-          61.9103059
         ]
       }
     },
