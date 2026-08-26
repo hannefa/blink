@@ -9767,19 +9767,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "RfD NEG"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.1994686,
-          59.7397617
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Skytterdalen"
       },
       "geometry": {
@@ -9826,6 +9813,19 @@
         "coordinates": [
           10.270924,
           60.177986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RfD NEG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1994686,
+          59.7397617
         ]
       }
     }
