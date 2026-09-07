@@ -3748,19 +3748,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Nøstegaten"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.315049,
-          60.3923903
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "− Nedre nøttveit"
       },
       "geometry": {
