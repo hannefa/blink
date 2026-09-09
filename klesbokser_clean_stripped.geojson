@@ -9806,13 +9806,26 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Horrisont Dalborgmarka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.640904,
+          60.767689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "RfD NEG"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.1994686,
-          59.7397617
+          9.430229,
+          60.146331
         ]
       }
     }
