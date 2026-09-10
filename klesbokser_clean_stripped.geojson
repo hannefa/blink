@@ -9828,6 +9828,19 @@
           60.146331
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lysaker stasjon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6368464,
+          59.9130544
+        ]
+      }
     }
   ]
 }
