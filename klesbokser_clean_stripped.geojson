@@ -1746,19 +1746,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kiwi Sunndalsøra"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.564736,
-          62.6731708
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Sunndalsøra"
       },
       "geometry": {
