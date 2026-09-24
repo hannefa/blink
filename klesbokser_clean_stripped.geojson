@@ -2643,19 +2643,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Rema 1000 Ågotnes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.9991628,
-          60.4037267
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Bunnpris Buena"
       },
       "geometry": {
@@ -3930,19 +3917,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Trengereid"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.6249887,
-          60.4256913
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Nærbutikken Vågstranda"
       },
       "geometry": {
@@ -4106,19 +4080,6 @@
         "coordinates": [
           5.4724945,
           60.4247595
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ågotnes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.9880124,
-          60.406687
         ]
       }
     },
@@ -9826,6 +9787,32 @@
         "coordinates": [
           10.6368464,
           59.9130544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hardangervegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.45471,
+          60.361921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bjorøyna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1795,
+          60.32658
         ]
       }
     }
