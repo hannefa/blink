@@ -9815,6 +9815,45 @@
           60.32658
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Areknappvegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.050891,
+          60.388864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rema Ågotnes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.999615,
+          60.403704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Extra Bønes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3109551,
+          60.3346386
+        ]
+      }
     }
   ]
 }
