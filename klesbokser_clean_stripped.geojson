@@ -4801,19 +4801,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Bunnpris Steinsviken"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.3031827,
-          60.3011237
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Fana Arena"
       },
       "geometry": {
