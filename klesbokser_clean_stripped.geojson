@@ -9841,6 +9841,19 @@
           60.3346386
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elias Smiths vei"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.517432,
+          59.892109
+        ]
+      }
     }
   ]
 }
